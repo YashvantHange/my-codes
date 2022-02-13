@@ -1,0 +1,15 @@
+L=[110,2,44,33,"hello"]
+print(L[3])
+print(L[2:3])
+L.append(1000)
+L.insert(99,2)
+print(L)
+L.pop(1)
+print(L)
+L.reverse()
+print(L)
+L.remove(2)
+
+L.remove("hello")
+L.sort()
+print(L)
